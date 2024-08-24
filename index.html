@@ -10,19 +10,25 @@
 </head>
 <body>
     <header>
-        <!-- Logo Section -->
-        <div class="logo-container">
-            <img src="images/logo.png" alt="The Hut Event Center Logo" class="logo">
+        <!-- Flex Container for Header -->
+        <div class="header-container">
+            <!-- Logo Section with Clickable Link -->
+            <div class="logo-container">
+                <a href="index.html">
+                    <img src="images/hutlog.png" alt="The Hut Event Center Logo" class="logo">
+                </a>
+            </div>
+            <!-- Navigation Section -->
+            <nav class="nav-container">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="about.html">Rental Types</a></li>
+                    <li><a href="air.html">Overnight Stay</a></li>
+                    <li><a href="photos.html">Photos</a></li>
+                </ul>
+            </nav>
         </div>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">Rental Types</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                <li><a href="photos.html">Photos</a></li>
-                <li><a href="air.html">Overnight Stay</a></li>
-            </ul>
-        </nav>
     </header>
 
     <!-- Main content -->
@@ -32,13 +38,25 @@
             <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="images/event1.jpg" class="d-block w-100" alt="Event 1">
+                        <img src="images/logo2.jpg" class="d-block w-100" alt="Event 1">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Event 1</h5>
+                            <p>Description of Event 1.</p>
+                        </div>
                     </div>
                     <div class="carousel-item">
-                        <img src="images/event2.jpg" class="d-block w-100" alt="Event 2">
+                        <img src="images/front.jpg" class="d-block w-100" alt="Event 2">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Event 2</h5>
+                            <p>Description of Event 2.</p>
+                        </div>
                     </div>
                     <div class="carousel-item">
-                        <img src="images/event3.jpg" class="d-block w-100" alt="Event 3">
+                        <img src="images/stage.jpg" class="d-block w-100" alt="Event 3">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Event 3</h5>
+                            <p>Description of Event 3.</p>
+                        </div>
                     </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">

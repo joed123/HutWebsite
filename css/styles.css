@@ -1,51 +1,154 @@
-body {
-    font-family: Arial, sans-serif;
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+   /* margin: 0; */
+   /* padding: 0; */
     background-color: #f4f4f4;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+  /*  height: 100%; /* Ensures the body takes up full height */ 
 }
 
+html, body {
+    height: 100%;
+}
+
+/* Header Styles */
 header {
-    background-color: #333;
+    background-color: rgb(181, 158, 10); /* Set the header background to gold */
     color: #fff;
-    padding: 10px 0;
-    text-align: center;
+    width: 100%;
+    display: flex; /* Flexbox for layout */
+    align-items: center; /* Center items vertically */
+    justify-content: center; /* Center the navigation links */
+    padding: 8px 0; /* Increased padding for spacing */
+    position: fixed; /* Fixed position for sticky behavior */
+    top: 0; /* Stick to the top of the page */
+    left: 0; /* Stick to the left side */
+    z-index: 1000; /* Ensure it stays above other content */ /* Position relative for absolute positioning of the logo */
+    min-height: 80px; /* Minimum height to accommodate the logo with some padding */
+    box-sizing: border-box;
 }
 
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
 
-nav ul li {
-    display: inline;
-    margin: 0 10px;
-}
-
-nav ul li a {
-    color: #fff;
-    text-decoration: none;
-}
-
+/* Logo Styles */
 .logo-container {
-    text-align: center;
-    margin: 20px 0;
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    /* Prevent logo from shrinking */
+     /* Add margin to the right for spacing */
 }
 
 .logo {
-    max-width: 200px; /* Adjust this size as needed */
-    height: auto;
+    max-width: 120px; /* Adjust the logo size as needed */
+    height: auto; /* Maintain aspect ratio */
+    padding: 2px 0;
 }
 
+.nav-container {
+    display: flex; /* Flexbox for layout */
+    align-items: center; /* Center items vertically */
+    justify-content: center; /* Center items horizontally */
+    height: 100%; /* Full height of the header for vertical centering */
+}
+
+
+/* Navigation Styles */
+.nav-container ul {
+    display: flex; /* Use Flexbox for the list */
+    justify-content: center; /* Center the links */
+    list-style-type: none; /* Remove list bullet points */
+    padding: 0; 
+    margin: 0; 
+}
+
+.nav-container ul li {
+    margin: 0 15px; /* Space out the links */
+}
+
+.nav-container ul li a {
+    color: #0b0a0a; /* Set link color to white */
+    text-decoration: none; /* Remove underline from links */
+    font-weight: normal; /* Make the links normal weight by default */
+    font-size: 17px;
+}
+
+.nav-container ul li a:hover {
+    font-weight: bold; /* Make the links bold on hover */
+    color: #f6f2f2;
+}
+
+/* Carousel Styles */
+.section-padding {
+    margin-top: 10px; /* Small margin below the fixed header */
+    display: flex;
+    justify-content: center; /* Center the carousel horizontally */
+    align-items: center; /* Center the carousel vertically within the section */
+    padding: 20px; /* Padding inside the section for some spacing */
+}
+
+#carouselExample {
+    max-width: 1200px; /* Set a maximum width for the carousel */
+    width: 100%; /* Ensure carousel fits within the container */
+    background-color: #ffffff; /* White background for the carousel */
+    border-radius: 10px; /* Rounded corners for a nicer look */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for a floating effect */
+    padding: 10px; /* Padding inside the carousel for spacing */
+}
+
+/* Carousel Image Styles */
+.carousel-inner img {
+    width: 100%; /* Make images fill the carousel container width */
+    height: auto; /* Maintain aspect ratio */
+}
+
+/* Carousel Caption Styles */
+.carousel-caption {
+    color: #000; /* Set the text color to black */
+    padding: 10px; /* Add padding for readability */
+    border-radius: 8px; /* Rounded corners for a softer look */
+}
+
+/* Carousel Controls Styles */
+.carousel-control-prev,
+.carousel-control-next {
+    width: 12%; /* Increase width for better visibility */
+    background-color: rgba(0, 0, 0, 0.5); /* Dark background for more contrast */
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: #fff; /* Make the arrow icons white */
+    border-radius: 50%; /* Round the icons for a button-like appearance */
+    padding: 25px; /* Increase padding for larger icons */
+}
+
+
+/* Main Content Styles */
+main {
+    flex-grow: 1; /* Ensures that the main content takes up available space */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+/* Section Styles */
 section.section-padding {
-    padding: 200px 0;
+    padding: 60px 0;
     text-align: center;
 }
 
+/* Button Styles */
 .contact-button {
     display: inline-block;
     margin-top: 20px;
@@ -61,13 +164,7 @@ section.section-padding {
     background-color: #0056b3;
 }
 
-main {
-    flex-grow: 1; /* Ensures that the main content takes up available space */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
+/* Footer Styles */
 footer {
     background-color: #333;
     color: #fff;
@@ -78,10 +175,7 @@ footer {
     bottom: 0;
 }
 
-html, body {
-    height: 100%;
-}
-
+/* Container Styles */
 .container {
     display: flex;
     flex-direction: column;
@@ -89,4 +183,8 @@ html, body {
     justify-content: center;
     text-align: center;
     width: 100%;
+}
+
+body {
+    overflow-y: scroll; /* Always show vertical scrollbar */
 }
