@@ -89,11 +89,11 @@ header {
 
 /* Carousel Styles */
 .section-padding {
-    margin-top: 10px; /* Small margin below the fixed header */
+    margin-top: 50px; /* Small margin below the fixed header */
     display: flex;
     justify-content: center; /* Center the carousel horizontally */
     align-items: center; /* Center the carousel vertically within the section */
-    padding: 20px; /* Padding inside the section for some spacing */
+    padding: 20px 0;
 }
 
 #carouselExample {
@@ -143,9 +143,28 @@ main {
 }
 
 /* Section Styles */
-section.section-padding {
-    padding: 60px 0;
+
+.section-padding2 {
+    margin: 0 250px auto 250px;
+    padding: 20px 0;
     text-align: center;
+}
+
+.section-padding h2 {
+    margin-top: 20px; /* Space below the carousel */
+    margin-bottom: 10px; /* Space below the title */
+    text-align: center; /* Center the title */
+    font-size: 28px; /* Font size for the title */
+    display: block; /* Ensure title is a block element */
+}
+
+.section-padding p {
+    max-width: 600px; /* Limit width for better readability */
+    margin: 0 auto 20px auto; /* Center the paragraph with margin below */
+    padding: 0 200px;
+    font-size: 16px; /* Font size for the description */
+    line-height: 1.5; /* Line height for readability */
+    display: block; /* Ensure paragraph is a block element */
 }
 
 /* Button Styles */
@@ -153,15 +172,40 @@ section.section-padding {
     display: inline-block;
     margin-top: 20px;
     padding: 10px 20px;
-    background-color: #007bff;
-    color: #fff;
+    background-color: rgb(181, 158, 10);
+    color: #0b0a0a;
     text-decoration: none;
     border-radius: 50px;
     font-size: 18px;
 }
 
 .contact-button:hover {
-    background-color: #0056b3;
+    font-weight: bold; /* Make the links bold on hover */
+    color: #f6f2f2;
+    
+}
+
+/* Pricing Table Section Styles */
+.section-padding3 {
+    margin: 50px auto 100px auto; /* Center the table */
+    border-collapse: collapse; /* Collapse borders for cleaner look */
+}
+
+.section-padding3 h2 {
+    text-align: center; /* Center the header above the table */
+    margin-bottom: 20px; /* Add space below the header */
+}
+
+.section-padding3 th,
+.section-padding3 td {
+    padding: 10px 20px; /* Add padding for better spacing */
+    text-align: center; /* Center text in table cells */
+    border: 1px solid #ddd; /* Light border for table cells */
+}
+
+.section-padding3 th {
+    background-color: #f4f4f4; /* Light background for header */
+    font-weight: bold; /* Bold text for header cells */
 }
 
 /* Footer Styles */
