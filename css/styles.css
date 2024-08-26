@@ -359,7 +359,7 @@ font-size: 26px;
     padding: 20px;
     width: 100%;
     max-width: 800px; /* Limit width for better readability */
-    max-height: 420px;
+    max-height: 560px;
     background-color: #ffffff;
     
     border-radius: 10px;
@@ -375,8 +375,8 @@ font-size: 26px;
 }
 
 .contact-section p {
-    font-size: 16px;
-    color: #666;
+    font-size: 18px;
+    color: #080808;
     margin-bottom: 20px;
 }
 
@@ -477,15 +477,31 @@ font-size: 26px;
     color: #f6f2f2;
 }
 
-/* Footer Styles */
 footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 10px 0;
-    width: 100%;
-    position: relative;
-    bottom: 0;
+    background-color: #c4c3c3;
+    padding: 20px 0;
+    font-size: 14px;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.footer-contact, .footer-info {
+    flex: 1;
+}
+
+.footer-contact p {
+    margin: 5px 0;
+}
+
+.footer-info {
+    text-align: right;
 }
 
 /* Container Styles */
@@ -502,6 +518,27 @@ body {
     overflow-y: scroll; /* Always show vertical scrollbar */
 }
 
+.contact-two {
+    margin-left: 230px;
+    margin-top: 0px; /* Adds 20 pixels of margin at the top */
+    padding: 20px; /* Adds padding for spacing inside the section */
+    text-align: left; /* Aligns all text to the left */
+    width: 100%; /* Ensures full width */
+}
+
+.contact-two h2 {
+    margin-top: 0; /* No extra margin on top */
+    margin-bottom: 20px; /* Adds space below the heading */
+    font-size: 22px; /* Adjusts font size */
+    font-weight: normal; /* Ensures heading is not bold */
+    color: #000000; /* Sets color for the heading */
+}
+
+.contact-two p {
+    margin-bottom: 10px; /* Adds vertical spacing between paragraphs */
+    font-size: 16px; /* Adjusts font size for readability */
+    color: #000000; /* Sets color for paragraphs */
+}
 .photo-gallery {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
