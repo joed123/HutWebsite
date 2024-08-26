@@ -155,6 +155,7 @@ main {
     margin-bottom: 20px; /* Adds space below the heading */
     text-align: center;
     font-size: 30px;
+    font-weight: normal;
 }
 
 .intro p {
@@ -353,6 +354,128 @@ margin-top: 0px;
 font-size: 26px;
 }
 
+/* Contact Section Styles */
+.contact-section {
+    padding: 20px;
+    width: 100%;
+    max-width: 800px; /* Limit width for better readability */
+    max-height: 420px;
+    background-color: #ffffff;
+    
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin: 70px auto; /* Center and add top margin */
+}
+
+.contact-section h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.contact-section p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 0; /* Ensure no extra margin at the bottom */
+    padding-bottom: 10px;
+}
+
+.form-group {
+    display: flex;
+    align-items: center; /* Center-aligns labels with input fields */
+    gap: 10px; /* Adds space between label and input */
+    justify-content: center; /* Center content horizontally */
+}
+
+.contact-form label {
+    font-size: 16px;
+    color: #333;
+    font-weight: bold;
+    text-align: left; /* Aligns labels to the left */
+    min-width: 80px; /* Sets a minimum width for the labels for alignment */
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.contact-form textarea {
+    height: 100px;
+    resize: none;
+}
+
+.contact-form input[type="submit"] {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgb(181, 158, 10);
+    color: #0b0a0a;
+    text-decoration: none;
+    border-radius: 50px;
+    font-size: 18px;
+    margin: 20px auto 0 auto;
+     /* Removes margin at the bottom */ /* Ensures consistent top and bottom margin */
+    border: none; /* Removes any border */
+    outline: none; /* Removes any outline */
+}
+
+.contact-form input[type="submit"]:hover {
+    font-weight: bold; /* Make the links bold on hover */
+    color: #f6f2f2;
+}
+
+.air-section {
+    margin-top: 70px; /* Adds top margin for spacing */
+    margin-bottom: 10px;
+    text-align: center;
+    width: 100%; /* Ensures full width */
+}
+
+.air-section h2 {
+    margin-top: 0px; /* No extra margin on top */
+    margin-bottom: 20px; /* Adds space below the heading */
+    text-align: center;
+    font-size: 30px;
+    font-weight: normal;
+}
+
+.air-section p {
+    margin-top: 20px; /* No extra margin on top */
+    /* Adds space below the heading */
+    text-align: center;
+    font-size: 18px;
+}
+
+.out-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgb(181, 158, 10);
+    color: #0b0a0a;
+    text-decoration: none;
+    border-radius: 50px;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+.out-button:hover {
+    font-weight: bold; /* Make the links bold on hover */
+    color: #f6f2f2;
+}
 
 /* Footer Styles */
 footer {
@@ -378,3 +501,4 @@ footer {
 body {
     overflow-y: scroll; /* Always show vertical scrollbar */
 }
+
