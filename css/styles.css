@@ -341,6 +341,11 @@ main {
     padding: 25px; /* Increase padding for larger icons */
 }
 
+.calendar {
+margin-top: 20px;
+
+}
+
 
 /* Footer Styles */
 footer {
