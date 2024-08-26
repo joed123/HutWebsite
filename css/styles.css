@@ -323,7 +323,7 @@ main {
 
 /* Carousel Caption Styles */
 #carouselExample1 .carousel-caption {
-    color: #000; /* Set the text color to black */
+    color: #ffffff; /* Set the text color to black */
     padding: 10px; /* Add padding for readability */
     border-radius: 8px; /* Rounded corners for a softer look */
 }
