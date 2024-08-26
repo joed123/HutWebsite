@@ -502,3 +502,49 @@ body {
     overflow-y: scroll; /* Always show vertical scrollbar */
 }
 
+.photo-gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    padding: 1rem;
+    max-width: 1200px; /* Adjust this value to control the overall width of the gallery */
+    margin: 0 auto; /* This centers the gallery */
+}
+
+.photo-gallery img {
+    width: 100%;
+    height: 200px; /* Fixed height for all images */
+    object-fit: cover;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.photo-gallery img:hover {
+    transform: scale(2.00);
+}
+
+/* Media query for responsiveness */
+@media (max-width: 1200px) {
+    .photo-gallery {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 900px) {
+    .photo-gallery {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+    .photo-gallery {
+        grid-template-columns: 1fr;
+    }
+}
+
+.gallery-wrapper {
+    margin: 150px auto 90px auto;
+    max-width: 1200px;
+    padding: 0 20px;
+}
+
