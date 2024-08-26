@@ -154,7 +154,7 @@ main {
     margin-top: 0px; /* No extra margin on top */
     margin-bottom: 20px; /* Adds space below the heading */
     text-align: center;
-    font-size: 28px;
+    font-size: 30px;
 }
 
 .intro p {
@@ -164,7 +164,7 @@ main {
     font-size: 18px;
 }
 
-.intro p1, .intro p + p {
+.intro p + p {
     margin-top: 30px; /* No extra margin on top */
     /* Adds space below the heading */
     text-align: center;
@@ -173,22 +173,6 @@ main {
     font-weight: bold;
 }
 
-/* Button Styles */
-.air-button {
-    display: inline-block; /* Change to block to take full width and be affected by text-align */
-    margin: 30px auto 10px auto; /* Center the button horizontally */
-    padding: 10px 20px;
-    background-color: rgb(181, 158, 10);
-    color: #0b0a0a;
-    text-decoration: none;
-    border-radius: 50px;
-    font-size: 18px;
-}
-
-.air-button:hover {
-    font-weight: bold; /* Make the button bold on hover */
-    color: #f6f2f2;
-}
 
 /* Section Styles */
 
@@ -198,11 +182,10 @@ main {
     text-align: center;
     font-size: 18px;
 }
-
-.section-padding2 p2, /* Updated selector to ensure it applies to the right element */
+ /* Updated selector to ensure it applies to the right element */
 .section-padding2 p + p { 
-    margin: 0 250px auto 250px;
-    padding: 20px 20px;
+    margin: 0 250px 20px 250px;
+    padding: 20px 0;
     text-align: center;
     font-size: 20px;
     font-weight: bold;
@@ -268,6 +251,24 @@ main {
     color: #f6f2f2;
 }
 
+/* Button Styles */
+.air-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgb(181, 158, 10);
+    color: #0b0a0a;
+    text-decoration: none;
+    border-radius: 50px;
+    font-size: 18px;
+    margin: 20px 0; /* Ensures consistent top and bottom margin */
+}
+
+
+.air-button:hover {
+    font-weight: bold; /* Make the button bold on hover */
+    color: #f6f2f2;
+}
+
 /* Pricing Table Section Styles */
 .section-padding3 {
     margin: 0px auto 10px auto; /* Center the table */
@@ -275,6 +276,7 @@ main {
 }
 
 .section-padding3 h2 {
+    font-size: 24px;
     text-align: center; /* Center the header above the table */
     margin-bottom: 20px; /* Add space below the header */
 }
@@ -342,8 +344,13 @@ main {
 }
 
 .calendar {
-margin-top: 20px;
+    margin-top: 10px;
+}
+    
 
+.calendar h2 {
+margin-top: 0px;
+font-size: 26px;
 }
 
 
