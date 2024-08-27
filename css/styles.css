@@ -147,7 +147,7 @@ main {
     margin-top: 50px; /* Adds top margin for spacing */
     text-align: center;
     width: 100%; /* Ensures full width */
-    padding: 20px;
+    padding: 20px 0 10px 0;
 }
 
 .intro h2 {
@@ -272,11 +272,12 @@ main {
 
 /* Pricing Table Section Styles */
 .section-padding3 {
-    margin: 0px auto 10px auto; /* Center the table */
+    margin: 10px auto 10px auto; /* Center the table */
     border-collapse: collapse; /* Collapse borders for cleaner look */
 }
 
 .section-padding3 h2 {
+    font-weight: normal;
     font-size: 24px;
     text-align: center; /* Center the header above the table */
     margin-bottom: 20px; /* Add space below the header */
@@ -301,8 +302,17 @@ main {
     display: flex;
     justify-content: center; /* Center the carousel horizontally */
     align-items: center; /* Center the carousel vertically within the section */
-    padding: 20px 0; /* Padding for spacing within the section */
+    padding: 10px 0; /* Padding for spacing within the section */
 }
+
+.about-cell1 {
+    margin-top: 0px; /* Adds 10px space above the carousel to separate it from the pricing table */
+    display: flex;
+    justify-content: center; /* Center the carousel horizontally */
+    align-items: center; /* Center the carousel vertically within the section */
+    padding: 20px 0 40px 0; /* Padding for spacing within the section */
+}
+
 
 /* Carousel Styles */
 #carouselExample1 {
@@ -344,14 +354,95 @@ main {
     padding: 25px; /* Increase padding for larger icons */
 }
 
+/* Carousel Styles */
+#carouselExample2 {
+    max-width: 600px; /* Set a smaller maximum width for the carousel */
+    width: 100%; /* Ensure carousel fits within the container */
+    background-color: #ffffff; /* White background for the carousel */
+    border-radius: 10px; /* Rounded corners for a nicer look */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for a floating effect */
+    padding: 10px; /* Padding inside the carousel for spacing */
+    margin: auto; /* Center the carousel horizontally */
+}
+
+/* Carousel Image Styles */
+#carouselExample2 .carousel-inner img {
+    width: 100%; /* Make images fill the carousel container width */
+    height: auto; /* Maintain aspect ratio */
+}
+
+/* Carousel Caption Styles */
+#carouselExample2 .carousel-caption {
+    color: #ffffff; /* Set the text color to black */
+    padding: 10px; /* Add padding for readability */
+    border-radius: 8px; /* Rounded corners for a softer look */
+}
+
+/* Carousel Controls Styles */
+#carouselExample2 .carousel-control-prev,
+#carouselExample2 .carousel-control-next {
+    width: 12%; /* Increase width for better visibility */
+    background-color: transparent;
+     /* Dark background for more contrast */
+
+}
+
+#carouselExample2 .carousel-control-prev-icon,
+#carouselExample2 .carousel-control-next-icon {
+    background-color: #fff; /* Make the arrow icons white */
+    border-radius: 50%; /* Round the icons for a button-like appearance */
+    padding: 25px; /* Increase padding for larger icons */
+}
+
+/* Carousel Styles */
+#carouselExample3 {
+    max-width: 600px; /* Set a smaller maximum width for the carousel */
+    width: 100%; /* Ensure carousel fits within the container */
+    background-color: #ffffff; /* White background for the carousel */
+    border-radius: 10px; /* Rounded corners for a nicer look */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for a floating effect */
+    padding: 10px; /* Padding inside the carousel for spacing */
+    margin: auto; /* Center the carousel horizontally */
+}
+
+/* Carousel Image Styles */
+#carouselExample3 .carousel-inner img {
+    width: 100%; /* Make images fill the carousel container width */
+    height: auto; /* Maintain aspect ratio */
+}
+
+/* Carousel Caption Styles */
+#carouselExample3 .carousel-caption {
+    color: #ffffff; /* Set the text color to black */
+    padding: 10px; /* Add padding for readability */
+    border-radius: 8px; /* Rounded corners for a softer look */
+}
+
+/* Carousel Controls Styles */
+#carouselExample3 .carousel-control-prev,
+#carouselExample3 .carousel-control-next {
+    width: 12%; /* Increase width for better visibility */
+    background-color: transparent;
+     /* Dark background for more contrast */
+
+}
+
+#carouselExample3 .carousel-control-prev-icon,
+#carouselExample3 .carousel-control-next-icon {
+    background-color: #fff; /* Make the arrow icons white */
+    border-radius: 50%; /* Round the icons for a button-like appearance */
+    padding: 25px; /* Increase padding for larger icons */
+}
+
 .calendar {
-    margin-top: 10px;
+    margin-top: 0px;
 }
     
 
 .calendar h2 {
 margin-top: 0px;
 font-size: 26px;
+font-weight: normal;
 }
 
 /* Contact Section Styles */
@@ -372,6 +463,7 @@ font-size: 26px;
     font-size: 28px;
     margin-bottom: 10px;
     color: #333;
+    font-weight: normal;
 }
 
 .contact-section p {
@@ -440,7 +532,7 @@ font-size: 26px;
 
 .air-section {
     margin-top: 70px; /* Adds top margin for spacing */
-    margin-bottom: 10px;
+    margin-bottom: 0px;
     text-align: center;
     width: 100%; /* Ensures full width */
 }
@@ -455,9 +547,49 @@ font-size: 26px;
 
 .air-section p {
     margin-top: 20px; /* No extra margin on top */
+    margin-left: 300px;
+    margin-right: 300px;
     /* Adds space below the heading */
     text-align: center;
     font-size: 18px;
+}
+
+.air-section1 {
+    margin-top: 20px; /* Adds top margin for spacing */
+    margin-bottom: 0px;
+    text-align: center;
+    width: 100%; /* Ensures full width */
+}
+
+.air-section1 h2 {
+    margin-top: 0px; /* No extra margin on top */
+    margin-bottom: 20px; /* Adds space below the heading */
+    text-align: center;
+    font-size: 26px;
+    font-weight: normal;
+}
+
+.air-section1 p {
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 20px; /* No extra margin on top */
+    /* Adds space below the heading */
+    text-align: center;
+    font-size: 18px;
+}
+
+.air-section2 {
+    margin-top: 0px; /* Adds top margin for spacing */
+    margin-bottom: 20px;
+    text-align: center;
+    width: 100%; /* Ensures full width */
+}
+
+.air-section3 {
+    margin-top: 0px; /* Adds top margin for spacing */
+    margin-bottom: 40px;
+    text-align: center;
+    width: 100%; /* Ensures full width */
 }
 
 .out-button {
