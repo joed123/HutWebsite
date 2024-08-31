@@ -159,20 +159,30 @@ main {
 }
 
 .intro p {
-    margin-top: 20px; /* No extra margin on top */
+  /* No extra margin on top */
     /* Adds space below the heading */
     text-align: center;
     font-size: 18px;
+    margin: 20px 250px 0px 250px;
 }
 
 .intro p + p {
-    margin-top: 30px; /* No extra margin on top */
+    margin: 20px 250px 0px 250px;
+    /* Adds space below the heading */
+    text-align: center;
+    font-size: 18px;
+    display: block;
+}
+
+.intro p + p + p {
+    margin: 20px 250px 0px 250px;
     /* Adds space below the heading */
     text-align: center;
     font-size: 18px;
     display: block;
     font-weight: bold;
 }
+
 
 
 /* Section Styles */
@@ -609,32 +619,41 @@ font-weight: normal;
 }
 
 footer {
-    background-color: #c4c3c3;
-    padding: 10px 0;
-    font-size: 14px;
+    background-color: #cdcdd1;
+    padding: 5px 0;
+    font-family: Arial, sans-serif;
 }
-
 .footer-content {
     max-width: 1200px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 20px;
+    flex-wrap: wrap;
 }
-
-.footer-contact, .footer-info {
-    flex: 1;
+.footer-contact, .footer-info, .footer-social {
+    margin: 0; /* Remove vertical margin */
 }
-
 .footer-contact p {
-    margin: 5px 0;
+    margin: 0; /* Remove default paragraph margins */
+    line-height: 1.2; /* Adjust line height for tighter spacing */
 }
-
-.footer-info {
-    text-align: right;
+.footer-social a {
+    margin-right: 15px;
+    text-decoration: none;
 }
-
+.footer-social svg {
+    width: 24px;
+    height: 24px;
+    fill: #333;
+    transition: fill 0.3s ease;
+}
+.footer-social svg:hover {
+    fill: #1877f2; /* Facebook blue */
+}
+.footer-social a:last-child svg:hover {
+    fill: #e4405f; /* Instagram pink */
+}
 /* Container Styles */
 .container {
     display: flex;
