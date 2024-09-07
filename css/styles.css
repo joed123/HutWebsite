@@ -4,16 +4,26 @@
     box-sizing: border-box;
 }
 
-/* General Styles */
 body {
     font-family: Arial, sans-serif;
-   /* margin: 0; */
-   /* padding: 0; */
-    background-color: #f4f4f4;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-  /*  height: 100%; /* Ensures the body takes up full height */ 
+    background-color: #f4f4f4;
+}
+
+main {
+    flex-grow: 1; /* Ensures the main content takes up available space */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   /* justify-content: center; */
+    padding: 20px; 
+    background-image: url('../images/metal.jpeg'); /* Add the correct path to your image */
+    background-size: cover; /* Ensures the image covers the entire background */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    width: 100%; /* Ensures the background stretches to full width */
 }
 
 html, body {
@@ -132,16 +142,6 @@ header {
     padding: 25px; /* Increase padding for larger icons */
 }
 
-
-/* Main Content Styles */
-main {
-    flex-grow: 1; /* Ensures that the main content takes up available space */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 20px;
-}
-
 /* Section Styles */
 .intro {
     margin-top: 50px; /* Adds top margin for spacing */
@@ -151,7 +151,7 @@ main {
 }
 
 .intro h2 {
-    margin-top: 0px; /* No extra margin on top */
+    margin-top: 5px; /* No extra margin on top */
     margin-bottom: 20px; /* Adds space below the heading */
     text-align: center;
     font-size: 30px;
@@ -163,40 +163,52 @@ main {
     /* Adds space below the heading */
     text-align: center;
     font-size: 18px;
-    margin: 20px 250px 0px 250px;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 .intro p + p {
-    margin: 20px 250px 0px 250px;
     /* Adds space below the heading */
     text-align: center;
     font-size: 18px;
     display: block;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 .intro p + p + p {
-    margin: 20px 250px 0px 250px;
     /* Adds space below the heading */
     text-align: center;
     font-size: 18px;
     display: block;
     font-weight: bold;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 
 
 /* Section Styles */
+.text-container {
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin: 0 280px; /* Adjust margins to control the width of the white background */
+    padding: 5px; /* Padding inside the container */
+    text-align: center;
+}
 
 .section-padding2 p {
-    margin: 0 250px 0px 250px;
-    padding: 20px 0;
+  /*   margin: 0 250px 0px 250px; */
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 5px;
     text-align: center;
     font-size: 18px;
 }
  /* Updated selector to ensure it applies to the right element */
 .section-padding2 p + p { 
-    margin: 0 250px 0px 250px;
-    padding: 10px 0;
+    margin-left: 5px;
+    margin-right: 5px;
     text-align: center;
     font-size: 18px;
 }
@@ -456,12 +468,20 @@ font-weight: normal;
 
 /* Contact Section Styles */
 .contact-section {
-    padding: 20px;
-    width: 100%;
+    flex-grow: 1; /* Ensures the main content takes up available space */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   /* justify-content: center; */
+    padding: 20px; 
+    background-color: #ffffff; /* Add the correct path to your image */
+    background-size: cover; /* Ensures the image covers the entire background */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    width: 100%; /* Ensures the background stretches to full width */
+
     max-width: 800px; /* Limit width for better readability */
     max-height: 560px;
-    background-color: #ffffff;
-    
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
@@ -547,7 +567,7 @@ font-weight: normal;
 }
 
 .air-section h2 {
-    margin-top: 0px; /* No extra margin on top */
+    margin-top: 5px; /* No extra margin on top */
     margin-bottom: 20px; /* Adds space below the heading */
     text-align: center;
     font-size: 30px;
@@ -556,8 +576,8 @@ font-weight: normal;
 
 .air-section p {
     margin-top: 20px; /* No extra margin on top */
-    margin-left: 300px;
-    margin-right: 300px;
+    margin-left: 10px;
+    margin-right: 10px;
     /* Adds space below the heading */
     text-align: center;
     font-size: 18px;
@@ -571,7 +591,7 @@ font-weight: normal;
 }
 
 .air-section1 h2 {
-    margin-top: 0px; /* No extra margin on top */
+    margin-top: 5px; /* No extra margin on top */
     margin-bottom: 20px; /* Adds space below the heading */
     text-align: center;
     font-size: 26px;
@@ -579,8 +599,8 @@ font-weight: normal;
 }
 
 .air-section1 p {
-    margin-left: 300px;
-    margin-right: 300px;
+    margin-left: 10px;
+    margin-right: 10px;
     margin-top: 20px; /* No extra margin on top */
     /* Adds space below the heading */
     text-align: center;
