@@ -19,7 +19,7 @@ main {
     align-items: center;
    /* justify-content: center; */
     padding: 20px; 
-    background-image: url('../images/metal.jpeg'); /* Add the correct path to your image */
+    background-image: url('../images/iStock-954130746-ezgif.com-optijpeg.jpg'); /* Add the correct path to your image */
     background-size: cover; /* Ensures the image covers the entire background */
     background-position: center; /* Centers the image */
     background-repeat: no-repeat; /* Prevents the image from repeating */
