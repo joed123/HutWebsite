@@ -185,6 +185,15 @@ header {
     margin-left: 5px;
     margin-right: 5px;
 }
+.intro p + p + p + p {
+    /* Adds space below the heading */
+    text-align: center;
+    font-size: 18px;
+    display: block;
+    font-weight: bold;
+    margin-left: 5px;
+    margin-right: 5px;
+}
 
 
 
@@ -481,7 +490,7 @@ font-weight: normal;
     width: 100%; /* Ensures the background stretches to full width */
 
     max-width: 800px; /* Limit width for better readability */
-    max-height: 560px;
+    max-height: 580px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
@@ -754,4 +763,5 @@ body {
     max-width: 1200px;
     padding: 0 20px;
 }
+
 
