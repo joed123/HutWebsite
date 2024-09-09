@@ -490,7 +490,7 @@ font-weight: normal;
     width: 100%; /* Ensures the background stretches to full width */
 
     max-width: 800px; /* Limit width for better readability */
-    max-height: 580px;
+    max-height: 620px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
@@ -522,7 +522,8 @@ font-weight: normal;
     display: flex;
     align-items: center; /* Center-aligns labels with input fields */
     gap: 10px; /* Adds space between label and input */
-    justify-content: center; /* Center content horizontally */
+  /*  justify-content: center;  Center content horizontally */
+    justify-content: flex-start;
 }
 
 .contact-form label {
@@ -530,11 +531,11 @@ font-weight: normal;
     color: #333;
     font-weight: bold;
     text-align: left; /* Aligns labels to the left */
-    min-width: 80px; /* Sets a minimum width for the labels for alignment */
+    min-width: 150px;/* 80px; /* Sets a minimum width for the labels for alignment */
 }
 
 .contact-form input[type="text"],
-.contact-form input[type="email"],
+.contact-form input[type="email"], 
 .contact-form textarea {
     width: 100%;
     padding: 10px;
@@ -542,6 +543,16 @@ font-weight: normal;
     border-radius: 5px;
     font-size: 16px;
     box-sizing: border-box;
+}
+
+.contact-form input[type="tel"] {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+    flex: 1;
 }
 
 .contact-form textarea {
@@ -765,3 +776,14 @@ body {
 }
 
 
+.calendar-container {
+    padding-top: 10px;
+    width: 940px;
+    overflow: hidden;
+}
+
+.google-calendar {
+    height: 600px; /* Keep this height for desktop */
+    width: 100%;
+    border: 0;
+}
