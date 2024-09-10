@@ -27,3 +27,29 @@ document.addEventListener('DOMContentLoaded', function() {
         console.error('Hamburger menu or nav container not found');
     }
 });
+
+document.addEventListener('DOMContentLoaded', function() {
+    var form = document.getElementById('contactForm');
+    var successMessage = document.getElementById('successMessage');
+
+    if (form) {
+        form.addEventListener('submit', function(event) {
+            event.preventDefault();
+            if (successMessage) {
+                successMessage.style.display = 'block';
+            }
+            var captchaResponse = grecaptcha.getResponse();
+            if (!captchaResponse) {
+                alert("Please complete the CAPTCHA");
+                return;
+            }
+            if (successMessage) {
+                successMessage.style.display = 'block';
+            }
+            // Optional: Clear the form fields
+            this.reset();
+            grecaptcha.reset();
+        });
+    }
+});
+

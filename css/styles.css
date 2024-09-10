@@ -490,7 +490,7 @@ font-weight: normal;
     width: 100%; /* Ensures the background stretches to full width */
 
     max-width: 800px; /* Limit width for better readability */
-    max-height: 620px;
+    max-height: 840px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
@@ -786,4 +786,14 @@ body {
     height: 600px; /* Keep this height for desktop */
     width: 100%;
     border: 0;
+}
+
+.success-message {
+    color: green;
+    margin-top: 10px;
+    display: none;
+}
+#debugInfo {
+    margin-top: 20px;
+    color: blue;
 }
