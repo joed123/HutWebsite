@@ -17,7 +17,6 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-   /* justify-content: center; */
     padding: 20px; 
     background-image: url('../images/iStock-954130746-ezgif.com-optijpeg.jpg'); /* Add the correct path to your image */
     background-size: cover; /* Ensures the image covers the entire background */
@@ -54,8 +53,6 @@ header {
     left: 20px;
     top: 50%;
     transform: translateY(-50%);
-    /* Prevent logo from shrinking */
-     /* Add margin to the right for spacing */
 }
 
 .logo {
@@ -159,8 +156,6 @@ header {
 }
 
 .intro p {
-  /* No extra margin on top */
-    /* Adds space below the heading */
     text-align: center;
     font-size: 18px;
     margin-left: 5px;
@@ -168,7 +163,6 @@ header {
 }
 
 .intro p + p {
-    /* Adds space below the heading */
     text-align: center;
     font-size: 18px;
     display: block;
@@ -177,7 +171,6 @@ header {
 }
 
 .intro p + p + p {
-    /* Adds space below the heading */
     text-align: center;
     font-size: 18px;
     display: block;
@@ -186,7 +179,6 @@ header {
     margin-right: 5px;
 }
 .intro p + p + p + p {
-    /* Adds space below the heading */
     text-align: center;
     font-size: 18px;
     display: block;
@@ -207,14 +199,13 @@ header {
 }
 
 .section-padding2 p {
-  /*   margin: 0 250px 0px 250px; */
   margin-left: 5px;
   margin-right: 5px;
   margin-top: 5px;
     text-align: center;
     font-size: 18px;
 }
- /* Updated selector to ensure it applies to the right element */
+
 .section-padding2 p + p { 
     margin-left: 5px;
     margin-right: 5px;
@@ -326,7 +317,6 @@ header {
 }
 
 /* General Styles for Carousel Section */
-/* General Styles for Carousel Section */
 .about-cell {
     margin-top: 0px; /* Adds 10px space above the carousel to separate it from the pricing table */
     display: flex;
@@ -373,8 +363,6 @@ header {
 #carouselExample1 .carousel-control-next {
     width: 12%; /* Increase width for better visibility */
     background-color: transparent;
-     /* Dark background for more contrast */
-
 }
 
 #carouselExample1 .carousel-control-prev-icon,
@@ -413,7 +401,6 @@ header {
 #carouselExample2 .carousel-control-next {
     width: 12%; /* Increase width for better visibility */
     background-color: transparent;
-     /* Dark background for more contrast */
 
 }
 
@@ -453,7 +440,6 @@ header {
 #carouselExample3 .carousel-control-next {
     width: 12%; /* Increase width for better visibility */
     background-color: transparent;
-     /* Dark background for more contrast */
 
 }
 
@@ -481,14 +467,12 @@ font-weight: normal;
     display: flex;
     flex-direction: column;
     align-items: center;
-   /* justify-content: center; */
     padding: 20px; 
     background-color: #ffffff; /* Add the correct path to your image */
     background-size: cover; /* Ensures the image covers the entire background */
     background-position: center; /* Centers the image */
     background-repeat: no-repeat; /* Prevents the image from repeating */
     width: 100%; /* Ensures the background stretches to full width */
-
     max-width: 800px; /* Limit width for better readability */
     max-height: 840px;
     border-radius: 10px;
@@ -522,7 +506,6 @@ font-weight: normal;
     display: flex;
     align-items: center; /* Center-aligns labels with input fields */
     gap: 10px; /* Adds space between label and input */
-  /*  justify-content: center;  Center content horizontally */
     justify-content: flex-start;
 }
 
@@ -569,7 +552,6 @@ font-weight: normal;
     border-radius: 50px;
     font-size: 18px;
     margin: 20px auto 0 auto;
-     /* Removes margin at the bottom */ /* Ensures consistent top and bottom margin */
     border: none; /* Removes any border */
     outline: none; /* Removes any outline */
 }
@@ -598,7 +580,6 @@ font-weight: normal;
     margin-top: 20px; /* No extra margin on top */
     margin-left: 10px;
     margin-right: 10px;
-    /* Adds space below the heading */
     text-align: center;
     font-size: 18px;
 }
@@ -622,7 +603,6 @@ font-weight: normal;
     margin-left: 10px;
     margin-right: 10px;
     margin-top: 20px; /* No extra margin on top */
-    /* Adds space below the heading */
     text-align: center;
     font-size: 18px;
 }
@@ -755,25 +735,6 @@ body {
 
 .photo-gallery img:hover {
     transform: scale(2.00);
-}
-
-/* Media query for responsiveness */
-@media (max-width: 1200px) {
-    .photo-gallery {
-        grid-template-columns: repeat(3, 1fr);
-    }
-}
-
-@media (max-width: 900px) {
-    .photo-gallery {
-        grid-template-columns: repeat(2, 1fr);
-    }
-}
-
-@media (max-width: 600px) {
-    .photo-gallery {
-        grid-template-columns: 1fr;
-    }
 }
 
 .gallery-wrapper {

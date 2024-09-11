@@ -94,7 +94,7 @@
     .text-container {
     margin: 0 10px; 
     }
-    /* Flex Container for Buttons */
+
 .button-container {
     display: flex; /* Use flexbox to align buttons horizontally */
     flex-direction: column;
@@ -104,7 +104,7 @@
     margin-bottom: 0px; /* Space below the button container */
     margin-top: 5px;
 }
-/* Book Button Styles */
+
 .book-button {
     display: inline-block;
     padding: 10px 20px;
@@ -329,3 +329,34 @@ max-width: 200px
             height: 100% !important;
         }
 }
+
+@media (max-width: 1200px) {
+    .photo-gallery {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 900px) {
+    .photo-gallery {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+    .photo-gallery {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 770px) {
+    .gallery-wrapper {
+        margin: 80px auto 10px auto;
+    }
+}
+
+@media (max-width: 1025px) {
+    .gallery-wrapper {
+    margin: 100px auto 20px auto;
+    }
+}
+
