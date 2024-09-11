@@ -694,6 +694,13 @@ footer {
 .footer-social a:last-child svg:hover {
     fill: #e4405f; /* Instagram pink */
 }
+.footer-social a:nth-child(2) svg:hover {
+    fill: #e4405f; /* Instagram pink */
+}
+.footer-social a:nth-child(3) svg:hover {
+    fill: #FF1A1A; /* Yelp red */
+}
+
 /* Container Styles */
 .container {
     display: flex;

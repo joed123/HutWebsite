@@ -1,6 +1,7 @@
 console.log("Welcome to The Hut Event Center!");
 
 document.addEventListener('DOMContentLoaded', function() {
+    // Hamburger menu functionality
     const hamburger = document.querySelector('.hamburger-menu');
     const nav = document.querySelector('.nav-container');
 
@@ -26,30 +27,56 @@ document.addEventListener('DOMContentLoaded', function() {
     } else {
         console.error('Hamburger menu or nav container not found');
     }
-});
 
-document.addEventListener('DOMContentLoaded', function() {
-    var form = document.getElementById('contactForm');
-    var successMessage = document.getElementById('successMessage');
+    // Contact form functionality
+    const form = document.getElementById('contactForm');
+    const successMessage = document.getElementById('successMessage');
+    const errorMessage = document.getElementById('errorMessage');
 
     if (form) {
-        form.addEventListener('submit', function(event) {
+        form.addEventListener('submit', async function(event) {
             event.preventDefault();
-            if (successMessage) {
-                successMessage.style.display = 'block';
-            }
-            var captchaResponse = grecaptcha.getResponse();
+            
+            const captchaResponse = grecaptcha.getResponse();
             if (!captchaResponse) {
                 alert("Please complete the CAPTCHA");
                 return;
             }
-            if (successMessage) {
-                successMessage.style.display = 'block';
+
+            try {
+                // Replace with your actual form submission logic
+                // This is just a placeholder to simulate form submission
+                await new Promise(resolve => setTimeout(resolve, 1000));
+
+                if (successMessage) {
+                    successMessage.style.display = 'block';
+                    errorMessage.style.display = 'none';
+                }
+                this.reset();
+                grecaptcha.reset();
+            } catch (error) {
+                console.error('Form submission error:', error);
+                if (errorMessage) {
+                    errorMessage.style.display = 'block';
+                    successMessage.style.display = 'none';
+                }
             }
-            // Optional: Clear the form fields
-            this.reset();
-            grecaptcha.reset();
         });
+    } else {
+        console.error('Contact form not found');
+    }
+
+    // Carousel functionality
+    const carousels = document.querySelectorAll('.carousel');
+    if (carousels.length > 0) {
+        carousels.forEach((carousel, index) => {
+            const carouselInstance = new bootstrap.Carousel(carousel, {
+                interval: 6000,
+                wrap: true
+            });
+            console.log(`Carousel ${index + 1} initialized`);
+        });
+    } else {
+        console.error('No carousels found');
     }
 });
-
