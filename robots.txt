@@ -1,0 +1,22 @@
+User-agent: *
+Allow: /
+Disallow: /css/
+Disallow: /js/
+Disallow: /images/
+
+# Prevent crawling of potential admin or sensitive areas
+Disallow: /admin/
+Disallow: /private/
+Disallow: /includes/
+Disallow: /cgi-bin/
+
+# Allow crawling of specific file types
+Allow: /*.html$
+Allow: /*.php$
+Allow: /*.jpg$
+Allow: /*.jpeg$
+Allow: /*.gif$
+Allow: /*.png$
+
+# Sitemap location
+Sitemap: https://thehutevents.com/sitemap.xml
