@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded', function() {
         console.error('Hamburger menu or nav container not found');
     }
 
-    // Contact form functionality
+    /* Contact form functionality
     const form = document.getElementById('contactForm');
     const successMessage = document.getElementById('successMessage');
     const errorMessage = document.getElementById('errorMessage');
@@ -64,7 +64,7 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     } else {
         console.error('Contact form not found');
-    }
+    } */
 
     // Carousel functionality
     const carousels = document.querySelectorAll('.carousel');

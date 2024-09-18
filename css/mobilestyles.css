@@ -38,6 +38,20 @@
     }
 
 }
+@media screen and (max-width: 1024px) {
+
+    .contact-section {
+        padding: 10px; 
+        max-width: 700px; /* Limit width for better readability */
+        max-height: 1030px;
+        margin: 80px auto; /* Center and add top margin */
+    }
+
+    .responsive-iframe-container {
+        padding-top: 130%; /* Adjust this value based on the aspect ratio of your form */
+    }
+
+}
 
 @media screen and (max-width: 950px) {
     .hamburger-menu {
@@ -166,6 +180,17 @@ max-width: 200px
     padding-right: 5px;
 }
 
+.contact-section {
+    padding: 10px; 
+    max-width: 700px; /* Limit width for better readability */
+    max-height: 890px;
+    margin: 80px auto; /* Center and add top margin */
+}
+
+.responsive-iframe-container {
+    padding-top: 110%; /* Adjust this value based on the aspect ratio of your form */
+}
+
 }
 
 @media screen and (max-width: 768px) {
@@ -180,7 +205,7 @@ max-width: 200px
     .contact-section {
         padding: 10px; 
         max-width: 470px; /* Limit width for better readability */
-        max-height: 840px;
+        max-height: 810px;
         margin: 80px auto; /* Center and add top margin */
     }
     .contact-two {
@@ -198,6 +223,9 @@ max-width: 200px
         margin-bottom: 10px; /* Adds vertical spacing between paragraphs */
         font-size: 16px; /* Adjusts font size for readability */
     }
+    .responsive-iframe-container {
+        padding-top: 150%; /* Adjust this value based on the aspect ratio of your form */
+    }
 }
 
 @media screen and (max-width: 480px) {
@@ -212,8 +240,8 @@ max-width: 200px
     }
     .contact-section {
         padding: 10px; 
-        max-width: 300px; /* Limit width for better readability */
-        max-height: 890px;
+        max-width: 330px; /* Limit width for better readability */
+        max-height: 820px;
         margin: 80px auto; /* Center and add top margin */
     }
     .contact-two {
@@ -252,6 +280,9 @@ max-width: 200px
 .g-recaptcha iframe {
     width: 90% !important;
     height: 100% !important;
+}
+.responsive-iframe-container {
+    padding-top: 220%; /* Adjust this value based on the aspect ratio of your form */
 }
 
 }
