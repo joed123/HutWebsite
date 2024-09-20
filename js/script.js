@@ -28,44 +28,6 @@ document.addEventListener('DOMContentLoaded', function() {
         console.error('Hamburger menu or nav container not found');
     }
 
-    /* Contact form functionality
-    const form = document.getElementById('contactForm');
-    const successMessage = document.getElementById('successMessage');
-    const errorMessage = document.getElementById('errorMessage');
-
-    if (form) {
-        form.addEventListener('submit', async function(event) {
-            event.preventDefault();
-            
-            const captchaResponse = grecaptcha.getResponse();
-            if (!captchaResponse) {
-                alert("Please complete the CAPTCHA");
-                return;
-            }
-
-            try {
-                // Replace with your actual form submission logic
-                // This is just a placeholder to simulate form submission
-                await new Promise(resolve => setTimeout(resolve, 1000));
-
-                if (successMessage) {
-                    successMessage.style.display = 'block';
-                    errorMessage.style.display = 'none';
-                }
-                this.reset();
-                grecaptcha.reset();
-            } catch (error) {
-                console.error('Form submission error:', error);
-                if (errorMessage) {
-                    errorMessage.style.display = 'block';
-                    successMessage.style.display = 'none';
-                }
-            }
-        });
-    } else {
-        console.error('Contact form not found');
-    } */
-
     // Carousel functionality
     const carousels = document.querySelectorAll('.carousel');
     if (carousels.length > 0) {

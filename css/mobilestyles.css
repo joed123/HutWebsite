@@ -42,13 +42,13 @@
 
     .contact-section {
         padding: 10px; 
-        max-width: 700px; /* Limit width for better readability */
+        max-width: 700px; 
         max-height: 1030px;
-        margin: 80px auto; /* Center and add top margin */
+        margin: 80px auto; 
     }
 
     .responsive-iframe-container {
-        padding-top: 130%; /* Adjust this value based on the aspect ratio of your form */
+        padding-top: 130%; 
     }
 
 }
@@ -57,8 +57,8 @@
     .hamburger-menu {
         display: block;
         position: fixed;
-        top: 26px; /* Adjust the top position as needed */
-        left: 25px; /* Always 15px from the left edge */
+        top: 26px; 
+        left: 25px; 
         z-index: 1001;
     }
     .nav-container {
@@ -84,15 +84,15 @@
         margin: 10px 0;
     }
     .nav-container ul li a {
-        color: #333; /* Ensuring text is visible on gold background */
+        color: #333; 
     }
     .header-container {
         position: relative;
         justify-content: center;
         align-items: center;
         padding: 3px 0;
-        padding-left: 60px; /* Adjusted to give space for the hamburger menu */
-        padding-right: 60px; /* Balance the space on the right */
+        padding-left: 60px; 
+        padding-right: 60px; 
     }
     .logo-container {
         text-align: center;
@@ -110,12 +110,12 @@
     }
 
 .button-container {
-    display: flex; /* Use flexbox to align buttons horizontally */
+    display: flex; 
     flex-direction: column;
-    justify-content: center; /* Center the buttons within the container */
+    justify-content: center; 
     align-items: center;
-    gap: 0px; /* Adds 20px space between the buttons */
-    margin-bottom: 0px; /* Space below the button container */
+    gap: 0px; 
+    margin-bottom: 0px; 
     margin-top: 5px;
 }
 
@@ -127,10 +127,10 @@
     text-decoration: none;
     border-radius: 50px;
     font-size: 15px;
-    margin: 5px 0; /* Ensures consistent top and bottom margin */
-    text-align: center; /* Centers text inside the button */
-    width: 90%; /* Responsive button width */
-    max-width: 300px; /* Controls max size on large screens */
+    margin: 5px 0; 
+    text-align: center; 
+    width: 90%; 
+    max-width: 300px; 
     box-sizing: border-box; 
 }
 
@@ -142,10 +142,10 @@
     text-decoration: none;
     border-radius: 50px;
     font-size: 15px;
-    margin: 5px 0; /* Ensures consistent top and bottom margin */
-    text-align: center; /* Centers text inside the button */
-    width: 90%; /* Responsive button width */
-    max-width: 300px; /* Controls max size on large screens */
+    margin: 5px 0; 
+    text-align: center; 
+    width: 90%; 
+    max-width: 300px; 
     box-sizing: border-box; 
 }
 
@@ -159,7 +159,7 @@ max-width: 200px
 }
 
 .google-calendar {
-    height: 600px; /* Adjust the height for smaller screens */
+    height: 600px; 
 }
 
 .photo-gallery img:hover {
@@ -167,9 +167,9 @@ max-width: 200px
 }
 .contact-section {
     padding: 10px; 
-    max-width: 800px; /* Limit width for better readability */
+    max-width: 800px; 
     max-height: 830px;
-    margin: 80px auto; /* Center and add top margin */
+    margin: 80px auto; 
 }
 .footer-contact p {
     padding-left: 5px;
@@ -182,13 +182,13 @@ max-width: 200px
 
 .contact-section {
     padding: 10px; 
-    max-width: 700px; /* Limit width for better readability */
+    max-width: 700px; 
     max-height: 890px;
-    margin: 80px auto; /* Center and add top margin */
+    margin: 80px auto; 
 }
 
 .responsive-iframe-container {
-    padding-top: 110%; /* Adjust this value based on the aspect ratio of your form */
+    padding-top: 110%; 
 }
 
 }
@@ -200,31 +200,31 @@ max-width: 200px
         overflow: hidden;
     }
     .google-calendar {
-        height: 330px; /* Adjust the height for smaller screens */
+        height: 330px; 
     }
     .contact-section {
         padding: 10px; 
-        max-width: 470px; /* Limit width for better readability */
+        max-width: 470px; 
         max-height: 810px;
-        margin: 80px auto; /* Center and add top margin */
+        margin: 80px auto; 
     }
     .contact-two {
         margin-left: 50px;
-        margin-top: 0px; /* Adds 20 pixels of margin at the top */
-        padding: 20px; /* Adds padding for spacing inside the section */
-        text-align: left; /* Aligns all text to the left */
-        width: 100%; /* Ensures full width */
+        margin-top: 0px; 
+        padding: 20px; 
+        text-align: left; 
+        width: 100%; 
     }
     .contact-two h2 { 
-        font-size: 18px; /* Adjusts font size */
+        font-size: 18px; 
     }
     
     .contact-two p {
-        margin-bottom: 10px; /* Adds vertical spacing between paragraphs */
-        font-size: 16px; /* Adjusts font size for readability */
+        margin-bottom: 10px; 
+        font-size: 16px; 
     }
     .responsive-iframe-container {
-        padding-top: 150%; /* Adjust this value based on the aspect ratio of your form */
+        padding-top: 150%; 
     }
 }
 
@@ -236,34 +236,34 @@ max-width: 200px
         
     }
     .google-calendar {
-        height: 290px; /* Further adjustment for very small screens */
+        height: 290px; 
     }
     .contact-section {
         padding: 10px; 
-        max-width: 330px; /* Limit width for better readability */
+        max-width: 330px; 
         max-height: 820px;
-        margin: 80px auto; /* Center and add top margin */
+        margin: 80px auto; 
     }
     .contact-two {
         margin-left: 20px;
-        margin-top: 0px; /* Adds 20 pixels of margin at the top */
-        padding: 10px; /* Adds padding for spacing inside the section */
-        text-align: left; /* Aligns all text to the left */
-        width: 100%; /* Ensures full width */
+        margin-top: 0px; 
+        padding: 10px; 
+        text-align: left; 
+        width: 100%; 
     }
     .contact-two h2 { 
-        font-size: 17px; /* Adjusts font size */
+        font-size: 17px; 
     }
     
     .contact-two p {
-        margin-bottom: 5px; /* Adds vertical spacing between paragraphs */
-        font-size: 15px; /* Adjusts font size for readability */
+        margin-bottom: 5px; 
+        font-size: 15px; 
     }
     footer {
         padding: 5px 0;
     }
     .form-group {
-        gap: 5px; /* Adds space between label and input */
+        gap: 5px; 
 
     }
     .contact-form input[type="text"],
@@ -282,7 +282,7 @@ max-width: 200px
     height: 100% !important;
 }
 .responsive-iframe-container {
-    padding-top: 220%; /* Adjust this value based on the aspect ratio of your form */
+    padding-top: 220%; 
 }
 
 }
@@ -295,28 +295,28 @@ max-width: 200px
         
     }
     .google-calendar {
-        height: 120px; /* Further adjustment for very small screens */
+        height: 120px; 
     }
     .contact-section {
         padding: 5px; 
-        max-width: 190px; /* Limit width for better readability */
-        max-height: 900px;;
-        margin: 80px auto; /* Center and add top margin */
+        max-width: 190px; 
+        max-height: 900px;
+        margin: 80px auto; 
     }
     .contact-two {
         margin-left: 10px;
-        margin-top: 0px; /* Adds 20 pixels of margin at the top */
-        padding: 5px; /* Adds padding for spacing inside the section */
-        text-align: left; /* Aligns all text to the left */
-        width: 100%; /* Ensures full width */
+        margin-top: 0px; 
+        padding: 5px; 
+        text-align: left; 
+        width: 100%; 
     }
     .contact-two h2 { 
-        font-size: 14px; /* Adjusts font size */
+        font-size: 14px; 
     }
     
     .contact-two p {
-        margin-bottom: 5px; /* Adds vertical spacing between paragraphs */
-        font-size: 12px; /* Adjusts font size for readability */
+        margin-bottom: 5px; 
+        font-size: 12px; 
     }
     .g-recaptcha iframe {
         width: 80% !important;
@@ -332,28 +332,28 @@ max-width: 200px
             
         }
         .google-calendar {
-            height: 120px; /* Further adjustment for very small screens */
+            height: 120px; 
         }
         .contact-section {
             padding: 50px; 
-            max-width: 160px; /* Limit width for better readability */
+            max-width: 160px; 
             max-height: 940px;;
-            margin: 120px auto; /* Center and add top margin */
+            margin: 120px auto; 
         }
         .contact-two {
             margin-left: 5px;
-            margin-top: 0px; /* Adds 20 pixels of margin at the top */
-            padding: 5px; /* Adds padding for spacing inside the section */
-            text-align: left; /* Aligns all text to the left */
-            width: 100%; /* Ensures full width */
+            margin-top: 0px; 
+            padding: 5px; 
+            text-align: left; 
+            width: 100%; 
         }
         .contact-two h2 { 
-            font-size: 10px; /* Adjusts font size */
+            font-size: 10px; 
         }
         
         .contact-two p {
-            margin-bottom: 5px; /* Adds vertical spacing between paragraphs */
-            font-size: 8px; /* Adjusts font size for readability */
+            margin-bottom: 5px; 
+            font-size: 8px; 
         }
         .g-recaptcha iframe {
             width: 70% !important;
