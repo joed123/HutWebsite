@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
    <url>
-      <loc>https://thehutevents.com/index.html</loc>
+      <loc>https://thehutevents.com/</loc>
       <lastmod>2024-09-11</lastmod>
       <priority>1.0</priority>
    </url>
    <url>
-      <loc>https://thehutevents.com/about.html</loc>
+      <loc>https://thehutevents.com/bookevent/</loc>
       <lastmod>2024-09-11</lastmod>
       <priority>0.8</priority>
    </url>
    <url>
-      <loc>https://thehutevents.com/air.html</loc>
+      <loc>https://thehutevents.com/overnight/</loc>
       <lastmod>2024-09-11</lastmod>
       <priority>0.8</priority>
    </url>
    <url>
-      <loc>https://thehutevents.com/contact.html</loc>
+      <loc>https://thehutevents.com/contact/</loc>
       <lastmod>2024-09-11</lastmod>
       <priority>0.8</priority>
    </url>
    <url>
-      <loc>https://thehutevents.com/Photos.html</loc>
+      <loc>https://thehutevents.com/photos/</loc>
       <lastmod>2024-09-11</lastmod>
       <priority>0.7</priority>
    </url>
    <url>
-      <loc>https://thehutevents.com/publicevents.html</loc>
+      <loc>https://thehutevents.com/publicevents/</loc>
       <lastmod>2024-09-11</lastmod>
       <priority>0.7</priority>
    </url>
