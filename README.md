@@ -37,7 +37,6 @@ The Hut Event Center is a versatile event space located in Fair Oaks, California
 - Optimized images for fast loading times
 - Custom domain configuration with GitHub Pages
 
-```
 
 ## Technologies Used
 
