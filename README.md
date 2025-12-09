@@ -2,7 +2,7 @@
 
 A modern, responsive website for The Hut Event Center, Fair Oaks' premier boutique event venue. Built with clean HTML, CSS, and JavaScript to provide an elegant user experience for potential clients looking to book events, overnight stays, or attend public events.
 
-🌐 **Live Site:** [thehutevents.com](https://thehutevents.com)
+**Live Site:** [thehutevents.com](https://thehutevents.com)
 
 ## About The Venue
 
@@ -16,13 +16,13 @@ The Hut Event Center is a versatile event space located in Fair Oaks, California
 
 ## Features
 
-### 🎨 User Experience
+### User Experience
 - **Responsive Design** - Fully optimized for desktop, tablet, and mobile devices
 - **Image Carousel** - Beautiful slideshow showcasing the venue and past events
 - **Intuitive Navigation** - Easy access to booking, overnight stays, public events, and contact information
 - **SEO Optimized** - Includes sitemap.xml and robots.txt for search engine visibility
 
-### 📄 Pages & Sections
+### Pages & Sections
 - **Home** (`/`) - Landing page with image carousel and venue introduction
 - **Book an Event** (`/bookevent/`) - Information and booking form for private events
 - **Stay Overnight** (`/overnight/`) - Details about overnight accommodation options
@@ -30,31 +30,13 @@ The Hut Event Center is a versatile event space located in Fair Oaks, California
 - **Photos** (`/photos/`) - Gallery showcasing the venue and past events
 - **Contact Us** (`/contact/`) - Contact form and venue information
 
-### 🛠 Technical Features
+### Technical Features
 - Clean, semantic HTML5 structure
 - Custom CSS styling for a professional appearance
 - JavaScript for interactive elements (carousel, forms, etc.)
 - Optimized images for fast loading times
 - Custom domain configuration with GitHub Pages
 
-## Project Structure
-
-```
-HutWebsite/
-├── bookevent/          # Event booking page
-├── contact/            # Contact form and information
-├── css/                # Stylesheets
-├── images/             # Image assets
-│   ├── frontpage/      # Homepage carousel images
-│   └── event/          # Event-specific photos
-├── js/                 # JavaScript files
-├── overnight/          # Overnight stay information
-├── photos/             # Photo gallery
-├── publicevents/       # Public events and classes
-├── index.html          # Homepage
-├── robots.txt          # Search engine crawling rules
-├── sitemap.xml         # Site structure for SEO
-└── CNAME               # Custom domain configuration
 ```
 
 ## Technologies Used
