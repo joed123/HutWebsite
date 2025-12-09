@@ -1,6 +1,6 @@
 # The Hut Event Center Website
 
-A modern, responsive website for The Hut Event Center - Fair Oaks' premier boutique event venue. Built with clean HTML, CSS, and JavaScript to provide an elegant user experience for potential clients looking to book events, overnight stays, or attend public events.
+A modern, responsive website for The Hut Event Center, Fair Oaks' premier boutique event venue. Built with clean HTML, CSS, and JavaScript to provide an elegant user experience for potential clients looking to book events, overnight stays, or attend public events.
 
 🌐 **Live Site:** [thehutevents.com](https://thehutevents.com)
 
